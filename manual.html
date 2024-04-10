@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor de PDF</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        #pdf-viewer {
+            width: 100%;
+            height: 100%;
+        }
+          
+    img[alt*="000webhost"],
+img[alt*="000webhost"][style],
+img[src*="000webhost"],
+img[src*="000webhost"][style],
+body > div:nth-last-of-type(1)[style]{
+opacity: 0 !important;
+pointer-events:none !important;
+width: 0px !important;
+height: 0px !important;
+visibility:hidden !important;
+display:none !important;
+}
+    </style>
+</head>
+<body>
+    <embed id="pdf-viewer" src="Manual.pdf" type="application/pdf" />
+</body>
+</html>
