@@ -11534,8 +11534,8 @@ pre .code {
 }
 .headernoti {
   position: relative;
-  height: 50vh;
-  min-height: 350px;
+  height: 20vh;
+  min-height: 20px;
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/notifon.jpg);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/notifon.jpg);
   background-size: cover;
