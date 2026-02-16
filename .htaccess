@@ -1,0 +1,5 @@
+RewriteEngine On 
+RewriteBase /
+
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://monsterdesings.com/$1 [R=301,L]
